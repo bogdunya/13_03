@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//first commit
+
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
@@ -15,6 +17,8 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
+
+    //продолжение начала "первый коммит в мэйн"
     int n, arr[100];
     cout << "Enter number of elements: ";
     cin >> n;
