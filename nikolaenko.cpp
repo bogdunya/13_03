@@ -9,7 +9,9 @@ int main() {
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
 
-    discriminant = b * c - 4 * a * b;
+/*My first commit to my own branch Nikolaenko*/
+    discriminant = b * b - 4 * a * c;
+
 
     if (discriminant > 0) {
         root1 = (-b + sqrt(discriminant)) / (2 * a);
