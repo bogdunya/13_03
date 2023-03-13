@@ -7,7 +7,7 @@ using namespace std;
 const int MAXN = 100; // максимальное количество вершин в графе
 vector<int> graph[MAXN]; // список смежности для графа
 bool visited[MAXN]; // флаги посещения вершин
-int dist[MAXN]; // расстояния до каждой вершины
+int distantion[MAXN]; // расстояния до каждой вершины
 
 void first_commin_in_my_branch(int start) {
     queue<int> q;
@@ -48,12 +48,6 @@ int main() {
     memset(dist, -1, sizeof(dist));
 
     bfs(start);
-
-    if (dist[end] == -1) {
-        cout << "Нет пути из " << start << " в " << end << endl;
-    } else {
-        cout << "Кратчайший путь из " << start << " в " << end << " равен " << dist[end] << endl;
-    }
 
     return 0;
 }
