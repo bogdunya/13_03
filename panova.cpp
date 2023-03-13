@@ -37,3 +37,7 @@ int main() {
 
     return 0;
 }
+
+int summ{
+    int a = 0;
+}
