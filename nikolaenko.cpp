@@ -2,6 +2,7 @@
 #include <cmath>
 
 using namespace std;
+/*My first commit to main branch Nikolaenko*/
 
 int main() {
     double a, b, c, discriminant, root1, root2;
