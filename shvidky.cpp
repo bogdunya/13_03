@@ -9,7 +9,7 @@ vector<int> graph[MAXN]; // список смежности для графа
 bool visited[MAXN]; // флаги посещения вершин
 int dist[MAXN]; // расстояния до каждой вершины
 
-void first_IN_main(int start) {
+void first_commin_in_my_branch(int start) {
     queue<int> q;
     q.push(start);
     visited[start] = true;
