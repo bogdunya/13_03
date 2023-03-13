@@ -49,11 +49,5 @@ int main() {
 
     bfs(start);
 
-    if (dist[end] == -1) {
-        cout << "Нет пути из " << start << " в " << end << endl;
-    } else {
-        cout << "Кратчайший путь из " << start << " в " << end << " равен " << dist[end] << endl;
-    }
-
     return 0;
 }
