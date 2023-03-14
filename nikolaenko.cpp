@@ -9,6 +9,7 @@ int main() {
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
 
+/*My first commit to my own branch Nikolaenko*/
     discriminant = b * b - 4 * a * c;
 /*ejdoweopwe*/
     if (discriminant > 0) {
@@ -28,4 +29,5 @@ int main() {
     }
 
     return 0;
+	/*Check 2*/
 }
