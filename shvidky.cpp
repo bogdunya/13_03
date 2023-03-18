@@ -3,7 +3,6 @@
 #include <vector>
 #include <cstring>
 using namespace std;
-//FIRST COMMIT IN A MAIN
 const int MAXN = 100; // максимальное количество вершин в графе
 vector<int> graph[MAXN]; // список смежности для графа
 bool visited[MAXN]; // флаги посещения вершин
